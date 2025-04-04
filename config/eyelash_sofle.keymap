@@ -41,7 +41,12 @@
 
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <8 7>;
+            key-positions = <17 31>;
+        };
+
+        quickwindows {
+            bindings = <&kp LG(LS(W))>;
+            key-positions = <2 3 4>;
         };
     };
 
