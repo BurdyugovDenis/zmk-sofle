@@ -200,3 +200,5 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
 - p: [2, 3, 4]
   k: Gui+Sft+W
+- p: [21, 33]
+  k: Gui+$$mdi:keyboard-space$$
