@@ -52,6 +52,11 @@
             bindings = <&kp LG(SPACE)>;
             key-positions = <21 33>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <16 30>;
+        };
     };
 
     keymap {
