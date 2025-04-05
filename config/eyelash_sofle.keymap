@@ -47,6 +47,11 @@
             bindings = <&kp LG(LS(W))>;
             key-positions = <2 3 4>;
         };
+
+        langswitch {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <21 33>;
+        };
     };
 
     keymap {
