@@ -117,11 +117,11 @@
 
         layer_4 {
             bindings = <
-&kp  &kp  &kp               &kp               &kp                &kp         &kp  &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp  &kp LS(LC(E))     &kp LSHFT         &kp LS(BSPC)       &kp BSPC    &kp  &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp  &kp LS(LG(LEFT))  &kp LS(LG(DOWN))  &kp LS(LG(RIGHT))  &kp         &kp  &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp  &kp               &kp               &kp                &kp         &kp  &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp  &kp               &kp               &kp                &kp         &kp  &kp  &kp  &kp  &kp  &kp
+&none  &none  &none             &none             &none              &none       &none  &none  &none  &none  &none  &none  &none
+&none  &none  &kp LS(LC(E))     &kp LSHFT         &kp LS(BSPC)       &kp BSPC    &none  &none  &none  &none  &none  &none  &none
+&none  &none  &kp LS(LG(LEFT))  &kp LS(LG(DOWN))  &kp LS(LG(RIGHT))  &none       &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none             &none             &none              &none       &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none             &none             &none              &none       &none  &none  &none  &none  &none  &none
             >;
         };
     };
