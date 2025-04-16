@@ -163,7 +163,7 @@ layers:
   - {t: Sft+3, s: Sft+#}
   - {t: Sft+4, s: Sft+$}
   - {t: Sft+5, s: Sft+%}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: Sft+6, s: Sft+^}
   - {t: Sft+7, s: Sft+&}
   - {t: Sft+8, s: Sft+*}
@@ -176,7 +176,7 @@ layers:
   - {t: Sft+=, s: Sft++}
   - {t: 'Sft+[', s: 'Sft+{'}
   - {t: 'Sft+]', s: 'Sft+}'}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: ;, s: ':'}
