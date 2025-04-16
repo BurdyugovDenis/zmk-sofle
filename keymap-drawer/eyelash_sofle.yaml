@@ -198,7 +198,7 @@ layers:
 combos:
 - p: [16, 30]
   k: {t: 'Gui+$$mdi:backspace$$', type: backspace}
-- p: [34, 22]
+- p: [21, 33]
   k: Gui+$$mdi:keyboard-space$$
 - p: [17, 31]
   k: {t: '$$mdi:backspace$$', type: backspace}
