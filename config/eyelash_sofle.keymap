@@ -46,7 +46,7 @@
 
         langswitch {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <34 22>;
+            key-positions = <21 33>;
         };
 
         backspace {
