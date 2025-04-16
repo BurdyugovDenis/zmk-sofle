@@ -40,17 +40,17 @@
 
         delete {
             bindings = <&kp LG(BACKSPACE)>;
-            key-positions = <15 16 17>;
+            key-positions = <16 30>;
         };
 
         langswitch {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <21 20 22>;
+            key-positions = <34 22>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <30 28 29>;
+            key-positions = <17 31>;
         };
 
         space {
@@ -60,6 +60,11 @@
 
         vvv {
             bindings = <&kp LS(LA(LG(V)))>;
+            key-positions = <41 43>;
+        };
+
+        whisper {
+            bindings = <&kp LS(LA(LC(LG(I))))>;
             key-positions = <41 42 43>;
         };
     };
@@ -83,7 +88,7 @@
         layer_1 {
             bindings = <
 &trans            &trans      &trans                    &trans     &trans         &trans               &kp LG(PLUS)     &trans         &trans        &trans    &trans         &trans             &kp BACKSPACE
-&kp C_SLEEP_MODE  &kp INSERT  &kp LC(LS(LA(NUMBER_9)))  &trans     &kp DELETE     &trans               &kp LG(MINUS)    &kp PAGE_UP    &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &kp LG(BACKSPACE)  &trans
+&kp C_SLEEP_MODE  &kp INSERT  &kp LC(LS(LA(NUMBER_9)))  &trans     &kp DELETE     &trans               &kp LG(MINUS)    &kp PAGE_UP    &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &kp LA(BACKSPACE)  &kp LG(BACKSPACE)
 &kp TAB           &kp LALT    &kp LEFT_GUI              &kp LSHFT  &kp LC(LS(E))  &kp CAPSLOCK         &mmv MOVE_LEFT   &kp PAGE_DOWN  &kp LEFT      &kp DOWN  &kp RIGHT      &kp DELETE         &trans
 &kp LSHFT         &kp LG(Z)   &kp LG(X)                 &kp LG(C)  &kp LG(V)      &kp LG(LA(SPACE))    &mmv MOVE_RIGHT  &trans         &kp HOME      &trans    &kp END        &trans             &trans
 &kp C_MUTE        &kp LCTRL   &kp LALT                  &kp LGUI   &mo 0          &trans               &mkp LCLK        &kp SPACE      &kp LGUI      &kp LALT  &kp LCTRL      &trans
