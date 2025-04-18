@@ -68,6 +68,11 @@
             bindings = <&kp LS(LA(LC(LG(I))))>;
             key-positions = <41 42 43>;
         };
+
+        capsword {
+            bindings = <&caps_word>;
+            key-positions = <7 8 9>;
+        };
     };
 
     keymap {
