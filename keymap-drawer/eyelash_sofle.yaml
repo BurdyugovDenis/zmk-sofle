@@ -208,3 +208,5 @@ combos:
   k: Sft+Alt+Gui+V
 - p: [41, 42, 43]
   k: Hyper+I
+- p: [7, 8, 9]
+  k: $$mdi:alpha-w-box$$
