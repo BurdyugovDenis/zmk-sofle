@@ -54,17 +54,17 @@ layers:
   - {t: /, s: '?'}
   - {t: '-', s: _}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
+  - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-control$$
   - '2'
   - {t: '$$mdi:keyboard-return$$', h: '3'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - layer1
-  - RIGHT GUI
-  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - RIGHT WIN
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -87,11 +87,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gui+-, s: Gui+_}
   - PgUp
-  - Alt+$$mdi:arrow-left-bold$$
+  - Ctl+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
-  - Alt+$$mdi:arrow-right-bold$$
-  - {t: 'Alt+$$mdi:backspace$$', type: backspace}
-  - {t: 'Gui+$$mdi:backspace$$', type: backspace}
+  - Ctl+$$mdi:arrow-right-bold$$
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
@@ -119,17 +119,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
   - LGUI
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - LAYER0
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-space$$
   - {t: LGUI, type: held}
-  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
+  - LGUI
   '2':
   - '~'
   - F1
@@ -184,17 +184,17 @@ layers:
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
   - LGUI
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - {type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-space$$
   - LAYER0
-  - LGUI
-  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - LGUI
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
