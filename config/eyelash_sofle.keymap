@@ -94,7 +94,7 @@
         layer_1 {
             bindings = <
 &trans            &trans      &trans                    &trans     &trans         &trans               &kp LG(PLUS)     &bt BT_CLR     &bt BT_NXT    &trans     &trans         &trans             &kp BACKSPACE
-&kp C_SLEEP_MODE  &kp INSERT  &kp LC(LS(LA(NUMBER_9)))  &trans     &kp DELETE     &trans               &kp LG(MINUS)    &kp PAGE_UP    &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp LA(BACKSPACE)  &kp LG(BACKSPACE)
+&kp C_SLEEP_MODE  &kp INSERT  &kp LC(LS(LA(NUMBER_9)))  &trans     &kp DELETE     &trans               &kp LG(MINUS)    &kp PAGE_UP    &kp LC(LEFT)  &kp UP     &kp LC(RIGHT)  &kp LA(BACKSPACE)  &kp LG(BACKSPACE)
 &kp TAB           &kp LALT    &kp LEFT_GUI              &kp LSHFT  &kp LC(LS(E))  &kp CAPSLOCK         &mmv MOVE_LEFT   &kp PAGE_DOWN  &kp LEFT      &kp DOWN   &kp RIGHT      &kp DELETE         &trans
 &kp LSHFT         &kp LG(Z)   &kp LG(X)                 &kp LG(C)  &kp LG(V)      &kp LG(LA(SPACE))    &mmv MOVE_RIGHT  &trans         &kp HOME      &trans     &kp END        &trans             &trans
 &kp C_MUTE        &kp LGUI    &kp LALT                  &kp LCTRL  &mo 0          &trans               &mkp LCLK        &kp SPACE      &kp LGUI      &kp LCTRL  &kp RALT       &kp LGUI
