@@ -118,11 +118,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans            &trans            &trans             &trans          &trans    &trans      &trans      &trans  &trans  &trans  &trans
-&trans  &trans  &trans            &kp LS(LG(UP))    &kp PG_UP          &kp BSPC        &trans    &bt BT_NXT  &bt BT_PRV  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LS(LG(LEFT))  &kp LS(LG(DOWN))  &kp LS(LG(RIGHT))  &kp LS(BSPC)    &kp LGUI  &trans      &trans      &trans  &trans  &trans  &trans
-&trans  &trans  &trans            &trans            &kp PG_DN          &trans          &trans    &trans      &trans      &trans  &trans  &trans  &trans
-&trans  &trans  &trans            &trans            &trans             &trans          &trans    &trans      &trans      &trans  &trans  &trans
+&trans  &trans  &trans            &trans            &trans             &trans          &trans    &trans      &trans      &trans          &trans  &trans  &trans
+&trans  &trans  &trans            &kp LS(LG(UP))    &kp PG_UP          &kp BSPC        &trans    &bt BT_NXT  &bt BT_PRV  &bt BT_CLR_ALL  &trans  &trans  &trans
+&trans  &trans  &kp LS(LG(LEFT))  &kp LS(LG(DOWN))  &kp LS(LG(RIGHT))  &kp LS(BSPC)    &kp LGUI  &trans      &trans      &trans          &trans  &trans  &trans
+&trans  &trans  &trans            &trans            &kp PG_DN          &trans          &trans    &trans      &trans      &trans          &trans  &trans  &trans
+&trans  &trans  &trans            &trans            &trans             &trans          &trans    &trans      &trans      &trans          &trans  &trans
             >;
         };
     };
