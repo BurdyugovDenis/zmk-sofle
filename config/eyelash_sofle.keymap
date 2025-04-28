@@ -40,7 +40,7 @@
         compatible = "zmk,combos";
 
         delete {
-            bindings = <&kp LG(BACKSPACE)>;
+            bindings = <&kp DELETE>;
             key-positions = <16 30>;
         };
 
@@ -60,12 +60,12 @@
         };
 
         vvv {
-            bindings = <&kp LS(LA(LG(V)))>;
+            bindings = <&kp LG(V)>;
             key-positions = <41 43>;
         };
 
         whisper {
-            bindings = <&kp LS(LA(LC(LG(I))))>;
+            bindings = <&kp LG(H)>;
             key-positions = <41 42 43>;
         };
 
@@ -80,11 +80,11 @@
 
         layer0 {
             bindings = <
-&kp ESC            &kp N1        &kp N2        &kp N3     &kp N4  &kp N5         &kp UP_ARROW     &kp N6     &kp N7  &kp N8     &kp N9         &kp N0         &kp BACKSPACE
-&kp RIGHT_BRACKET  &kp Q         &kp W         &kp E      &kp R   &kp T          &kp DOWN_ARROW   &kp Y      &kp U   &kp I      &kp O          &kp P          &kp LEFT_BRACKET
-&kp TAB            &kp A         &kp S         &kp D      &kp F   &kp G          &kp LEFT_ARROW   &kp H      &kp J   &kp K      &kp L          &kp SEMI       &kp APOS
-&kp LSHFT          &kp Z         &kp X         &kp C      &kp V   &kp B          &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA  &kp DOT        &kp SLASH      &kp MINUS
-&kp C_MUTE         &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &mo 2   &lt 3 ENTER    &kp ENTER        &kp SPACE  &mo 1   &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_WIN
+&kp ESC            &kp N1        &kp N2        &kp N3     &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7  &kp N8     &kp N9         &kp N0         &kp BACKSPACE
+&kp RIGHT_BRACKET  &kp Q         &kp W         &kp E      &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I      &kp O          &kp P          &kp LEFT_BRACKET
+&kp TAB            &kp A         &kp S         &kp D      &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J   &kp K      &kp L          &kp SEMI       &kp APOS
+&kp LSHFT          &kp Z         &kp X         &kp C      &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA  &kp DOT        &kp SLASH      &kp MINUS
+&kp C_MUTE         &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &mo 2   &kp ENTER    &kp ENTER        &kp SPACE  &mo 1   &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_WIN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -114,16 +114,6 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans            &trans            &trans             &trans          &trans    &trans      &trans      &trans          &trans  &trans  &trans
-&trans  &trans  &trans            &kp LS(LC(UP))    &kp PG_UP          &kp BSPC        &trans    &bt BT_NXT  &bt BT_PRV  &bt BT_CLR_ALL  &trans  &trans  &trans
-&trans  &trans  &kp LS(LC(LEFT))  &kp LS(LC(DOWN))  &kp LS(LC(RIGHT))  &kp LS(BSPC)    &kp LGUI  &trans      &trans      &trans          &trans  &trans  &trans
-&trans  &trans  &trans            &trans            &kp PG_DN          &trans          &trans    &trans      &trans      &trans          &trans  &trans  &trans
-&trans  &trans  &trans            &trans            &trans             &trans          &trans    &trans      &trans      &trans          &trans  &trans
-            >;
         };
     };
 };
