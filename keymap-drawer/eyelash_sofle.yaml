@@ -210,3 +210,5 @@ combos:
   k: Gui+H
 - p: [7, 8, 9]
   k: $$mdi:alpha-w-box$$
+- p: [22, 35, 48, 62]
+  k: {t: A, h: '$$mdi:gesture-tap-hold$$'}
