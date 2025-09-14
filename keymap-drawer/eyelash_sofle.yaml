@@ -60,7 +60,7 @@ layers:
   - '2'
   - {t: '$$mdi:keyboard-return$$', h: 'Hyper+$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: 'Hyper+$$mdi:apple-keyboard-option$$'}
+  - $$mdi:keyboard-space$$
   - layer1
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
