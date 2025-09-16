@@ -205,10 +205,8 @@ combos:
 - p: [16, 18]
   k: $$mdi:keyboard-space$$
 - p: [41, 43]
-  k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  k: Gui+Alt+V
 - p: [41, 42, 43]
   k: Gui+H
-- p: [7, 8, 9]
-  k: $$mdi:alpha-w-box$$
 - p: [51, 50]
   k: +
