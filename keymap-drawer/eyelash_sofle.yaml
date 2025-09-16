@@ -210,3 +210,5 @@ combos:
   k: Gui+H
 - p: [7, 8, 9]
   k: $$mdi:alpha-w-box$$
+- p: [51, 50]
+  k: +
