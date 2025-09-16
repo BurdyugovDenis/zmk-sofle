@@ -73,6 +73,11 @@
             bindings = <&caps_word>;
             key-positions = <7 8 9>;
         };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <51 50>;
+        };
     };
 
     keymap {
