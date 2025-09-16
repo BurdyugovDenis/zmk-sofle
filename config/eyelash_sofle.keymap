@@ -60,18 +60,13 @@
         };
 
         vvv {
-            bindings = <&kp LG(V)>;
+            bindings = <&kp LG(LA(V))>;
             key-positions = <41 43>;
         };
 
         whisper {
             bindings = <&kp LG(H)>;
             key-positions = <41 42 43>;
-        };
-
-        capsword {
-            bindings = <&caps_word>;
-            key-positions = <7 8 9>;
         };
 
         plus {
