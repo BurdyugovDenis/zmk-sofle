@@ -57,6 +57,11 @@
             bindings = <&kp LA(BACKSPACE)>;
             key-positions = <20 21 22>;
         };
+
+        raycast {
+            bindings = <&kp SPACE>;
+            key-positions = <33 34 35>;
+        };
     };
 
     keymap {
