@@ -267,3 +267,5 @@ combos:
   k: Sft+$$mdi:keyboard-space$$
 - p: [20, 21, 22]
   k: {t: 'Alt+$$mdi:backspace$$', type: backspace}
+- p: [33, 34, 35]
+  k: $$mdi:keyboard-space$$

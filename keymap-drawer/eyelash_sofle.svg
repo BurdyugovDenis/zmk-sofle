@@ -647,6 +647,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="658" y="76" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="663" y="80" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
+<g class="combo combopos-3">
+<path d="M672,145 l-37,2" class="combo"/>
+<path d="M672,145 l37,-3" class="combo"/>
+<rect rx="6" ry="6" x="658" y="132" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="663" y="136" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-layer1">
@@ -1019,6 +1025,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="658" y="76" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="663" y="80" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
+<g class="combo combopos-3">
+<path d="M672,145 l-37,2" class="combo"/>
+<path d="M672,145 l37,-3" class="combo"/>
+<rect rx="6" ry="6" x="658" y="132" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="663" y="136" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-layer2">
@@ -1374,6 +1386,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="658" y="76" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="663" y="80" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
+<g class="combo combopos-3">
+<path d="M672,145 l-37,2" class="combo"/>
+<path d="M672,145 l37,-3" class="combo"/>
+<rect rx="6" ry="6" x="658" y="132" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="663" y="136" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-layer3">
@@ -1714,6 +1732,12 @@ rect.held, rect.combo.held {
 <path d="M672,89 l37,-3" class="combo"/>
 <rect rx="6" ry="6" x="658" y="76" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="663" y="80" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-3">
+<path d="M672,145 l-37,2" class="combo"/>
+<path d="M672,145 l37,-3" class="combo"/>
+<rect rx="6" ry="6" x="658" y="132" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="663" y="136" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>
