@@ -43,9 +43,9 @@
     combos {
         compatible = "zmk,combos";
 
-        softoff {
-            bindings = <&soft_off>;
-            key-positions = <14 28 40>;
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <17 31>;
         };
     };
 
