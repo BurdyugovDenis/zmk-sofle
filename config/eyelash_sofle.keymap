@@ -57,6 +57,16 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <17 31>;
         };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <33 21>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <22 34>;
+        };
     };
 
     keymap {
