@@ -267,3 +267,7 @@ combos:
   k: $$mdi:keyboard-space$$
 - p: [17, 31]
   k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [33, 21]
+  k: +
+- p: [22, 34]
+  k: {t: '-', s: _}
