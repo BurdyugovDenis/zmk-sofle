@@ -67,6 +67,16 @@
             bindings = <&kp MINUS>;
             key-positions = <22 34>;
         };
+
+        equal-plus {
+            bindings = <&kp LS(EQUAL)>;
+            key-positions = <23 35>;
+        };
+
+        vv {
+            bindings = <&kp LC(LG(V))>;
+            key-positions = <29 30 31>;
+        };
     };
 
     keymap {
