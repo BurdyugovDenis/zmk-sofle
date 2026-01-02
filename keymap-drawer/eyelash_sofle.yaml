@@ -108,7 +108,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '=', s: +}
   - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {t: Sft+=, s: Sft++}
   - {t: 'Sft+[', s: 'Sft+{'}
   - {t: 'Sft+]', s: 'Sft+}'}
   - END
@@ -275,3 +275,7 @@ combos:
   k: Sft+=
 - p: [29, 30, 31]
   k: Ctl+Gui+V
+- p: [14, 15]
+  k: Alt+Gui+-
+- p: [13, 14]
+  k: Gui+-
