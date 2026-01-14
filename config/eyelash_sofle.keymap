@@ -63,11 +63,6 @@
             key-positions = <33 21>;
         };
 
-        minus {
-            bindings = <&kp MINUS>;
-            key-positions = <22 34>;
-        };
-
         equal-plus {
             bindings = <&kp LS(EQUAL)>;
             key-positions = <23 35>;
