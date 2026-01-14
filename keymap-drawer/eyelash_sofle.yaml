@@ -269,8 +269,6 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [33, 21]
   k: +
-- p: [22, 34]
-  k: {t: '-', s: _}
 - p: [23, 35]
   k: Sft+=
 - p: [29, 30, 31]
