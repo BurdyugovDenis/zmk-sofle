@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - LGUI
   - one
-  - {t: '$$mdi:keyboard-return$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:keyboard-return$$', h: RIGHT WIN}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - two
