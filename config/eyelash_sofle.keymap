@@ -99,6 +99,11 @@
             bindings = <&kp LG(DEL)>;
             key-positions = <20 21 22>;
         };
+
+        layer4 {
+            bindings = <&sl 4>;
+            key-positions = <39 53>;
+        };
     };
 
     keymap {
@@ -158,11 +163,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp B   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans            &trans             &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &kp LG(LS(UP))    &kp DELETE         &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(LS(LEFT))  &kp LG(LS(DOWN))  &kp LG(LS(RIGHT))  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans            &trans             &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans            &trans             &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
