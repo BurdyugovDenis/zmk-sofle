@@ -328,9 +328,9 @@ layers:
 combos:
 - p: [33, 34, 35]
   k: Alt+$$mdi:keyboard-space$$
-- p: [16, 18]
+- p: [15, 17]
   k: $$mdi:keyboard-space$$
-- p: [17, 31]
+- p: [28, 30]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [33, 21]
   k: +
