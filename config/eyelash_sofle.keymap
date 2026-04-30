@@ -62,12 +62,12 @@
 
         space {
             bindings = <&kp SPACE>;
-            key-positions = <15 17>;
+            key-positions = <15 17 16>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <28 30>;
+            key-positions = <28 30 29>;
         };
 
         plus {
