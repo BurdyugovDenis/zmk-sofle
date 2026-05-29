@@ -189,7 +189,7 @@ layers:
   - LGUI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:mouse-left-click-outline$$
+  - '&mkp MB3'
   - $$mdi:keyboard-space$$
   - {type: held}
   - RGUI
