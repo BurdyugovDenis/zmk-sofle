@@ -119,7 +119,7 @@
 
         one {
             bindings = <
-&kp F1     &kp F2                  &kp F3              &kp F4                    &kp F5        &kp F6          &kp PAGE_UP    &kp LGUI    &kp F8      &kp F9      &kp F10       &kp F11     &kp F12
+&kp F1     &kp F2                  &kp F3              &kp F4                    &kp F5        &kp F6          &kp PAGE_UP    &kp F5      &kp F8      &kp F9      &kp F10       &kp F11     &kp F12
 &kp GRAVE  &kp LS(LA(LC(LG(N0))))  &kp LA(LC(LG(N9)))  &kp LA(LC(LG(NUMBER_1)))  &kp N4        &kp N5          &kp PAGE_DOWN  &kp N6      &kp N7      &kp N8      &kp N9        &kp N0      &kp CAPS
 &kp TAB    &kp LS(N1)              &kp LS(N2)          &kp LS(N3)                &kp LS(N4)    &kp LS(N5)      &kp HOME       &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)    &kp LS(N0)  &kp LS(BSLH)
 &kp LSHFT  &kp EQUAL               &kp MINUS           &kp LS(EQUAL)             &kp LS(LBKT)  &kp LS(RBKT)    &kp END        &kp LBKT    &kp RBKT    &kp SEMI    &kp LS(SEMI)  &kp BSLH    &kp LSHFT
@@ -132,11 +132,11 @@
 
         two {
             bindings = <
-&kp GRAVE   &kp F1            &kp F2                &kp F3             &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9         &kp F10           &trans
-&trans      &kp GRAVE         &kp LG(LS(UP_ARROW))  &mkp MCLK          &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp LA(LEFT)     &kp UP      &kp LA(RIGHT)  &kp MINUS         &kp EQUAL
-&kp TAB     &kp LG(LS(LEFT))  &kp LS(LG(DOWN))      &kp LG(LS(RIGHT))  &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF   &rgb_ug RGB_ON        &rgb_ug RGB_EFF    &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11        &kp F12           &trans
-&kp C_MUTE  &kp LCTRL         &kp LALT              &kp LGUI           &trans           &kp ENTER          &mkp MB3         &kp SPACE        &trans           &kp RGUI    &kp RALT       &kp RCTRL
+&kp GRAVE       &kp F1            &kp F2                &kp F3             &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9         &kp F10    &trans
+&trans          &kp GRAVE         &kp LG(LS(UP_ARROW))  &mkp MCLK          &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp LA(LEFT)     &kp UP      &kp LA(RIGHT)  &kp HOME   &kp EQUAL
+&kp TAB         &kp LG(LS(LEFT))  &kp LS(LG(DOWN))      &kp LG(LS(RIGHT))  &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT      &kp END    &kp RIGHT_BRACKET
+&kp LEFT_SHIFT  &rgb_ug RGB_OFF   &rgb_ug RGB_ON        &rgb_ug RGB_EFF    &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11        &kp F12    &trans
+&kp C_MUTE      &kp LCTRL         &kp LALT              &kp LGUI           &trans           &kp ENTER          &mkp MB3         &kp SPACE        &trans           &kp RGUI    &kp RALT       &kp RCTRL
             >;
 
             display-name = "two";
@@ -154,16 +154,6 @@
 
             display-name = "OTHER";
             sensor-bindings = <&scroll_encoder>;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans            &trans            &trans             &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &kp LG(LS(UP))    &kp DELETE         &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(LS(LEFT))  &kp LG(LS(DOWN))  &kp LG(LS(RIGHT))  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &trans            &trans             &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &trans            &trans             &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
         };
     };
 };
